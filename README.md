@@ -68,7 +68,7 @@ pip install -r requirements.txt
 ### 4. Ejecutar la aplicación
 streamlit run proyecto.py
 
-##Estructura de Datos
+## Estructura de Datos
 
 ### 1. Para la Pestaña de Producción (Análisis): Debe tener una columna llamada comentario.
 id,comentario
@@ -80,7 +80,7 @@ comentario,sentimiento_manual
 "El producto llegó roto",Negativo
 "Es justo lo que pedí",Positivo
 
-##⚙️ Configuración
+#⚙️ Configuración
 Una vez iniciada la aplicación, verás una Barra Lateral (Sidebar):
 
 Obtén tu API Key gratuita en Google AI Studio.
@@ -91,8 +91,8 @@ Haz clic en Agregar Nodo.
 
 ¡Listo! Ya puedes cargar tus archivos CSV.
 
-##🤝 Contribución
+#🤝 Contribución
 Este es un proyecto académico desarrollado para fines de investigación en Procesamiento de Lenguaje Natural (NLP). Las sugerencias y Pull Requests son bienvenidos.
 
-##📄 Licencia
+#📄 Licencia
 Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
