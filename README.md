@@ -97,8 +97,8 @@ streamlit run proyecto.py
 
 ** ¡Listo! Ya puedes cargar tus archivos CSV.
 
-#🤝 Contribución
+# 🤝 Contribución
 Este es un proyecto académico desarrollado para fines de investigación en Procesamiento de Lenguaje Natural (NLP). Las sugerencias y Pull Requests son bienvenidos.
 
-#📄 Licencia
+# 📄 Licencia
 Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
