@@ -3,7 +3,7 @@
 # INSTITUCIÓN: SENATI - Ingeniería de Ciencia de Datos e IA
 # VERSIÓN: 3.1 (Corrección: Timeout Fix + Rate Limiting)
 # AÑO: 2025
-# AUTOR: Jean Steven Acosta Cruz
+# AUTORES: Jean Steven Acosta Cruz, Daniel Adrián López Cerpa
 # ==============================================================================
 
 import streamlit as st
