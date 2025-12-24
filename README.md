@@ -54,8 +54,8 @@ git clone [https://github.com/Jecast25/Analisis_opinones.git](https://github.com
 cd Analisis_opiniones
 ```
 ### 2. Crear un entorno (Recomendado)
-# En Windows
 ```bash
+# En Windows
 python -m venv venv
 venv\Scripts\activate
 ```
