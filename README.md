@@ -77,16 +77,16 @@ streamlit run proyecto.py
 ## Estructura de Datos
 
 ### 1. Para la Pestaña de Producción (Análisis): Debe tener una columna llamada comentario.
-* id,comentario
-* 1,"El servicio fue excelente, me encantó."
-* 2,"La comida demoró mucho en llegar."
+id,comentario
+1,"El servicio fue excelente, me encantó."
+2,"La comida demoró mucho en llegar."
 
 ### 2. Para la Pestaña de Validación: Debe tener dos columnas: comentario y sentimiento_manual.
-* comentario,sentimiento_manual
-* "El producto llegó roto",Negativo
-* "Es justo lo que pedí",Positivo
+ comentario,sentimiento_manual
+ "El producto llegó roto",Negativo
+ "Es justo lo que pedí",Positivo
 
-#⚙️ Configuración
+# ⚙️ Configuración
 * Una vez iniciada la aplicación, verás una Barra Lateral (Sidebar):
 
 ** Obtén tu API Key gratuita en Google AI Studio.
