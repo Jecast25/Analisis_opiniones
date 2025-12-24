@@ -50,5 +50,49 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
-cd TU_REPOSITORIO
+git clone [https://github.com/Jecast25/Analisis_opinones.git](https://github.com/Jecast25/Analisis_opiniones.git)
+cd Analisis_opiniones
+```
+### 2. Crear un entorno (Recomendado)
+# En Windows
+python -m venv venv
+venv\Scripts\activate
+
+# En Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+### 3. Instalar dependencias
+pip install -r requirements.txt
+
+### 4. Ejecutar la aplicación
+streamlit run proyecto.py
+
+##Estructura de Datos
+
+### 1. Para la Pestaña de Producción (Análisis): Debe tener una columna llamada comentario.
+id,comentario
+1,"El servicio fue excelente, me encantó."
+2,"La comida demoró mucho en llegar."
+
+### 2. Para la Pestaña de Validación: Debe tener dos columnas: comentario y sentimiento_manual.
+comentario,sentimiento_manual
+"El producto llegó roto",Negativo
+"Es justo lo que pedí",Positivo
+
+##⚙️ Configuración
+Una vez iniciada la aplicación, verás una Barra Lateral (Sidebar):
+
+Obtén tu API Key gratuita en Google AI Studio.
+
+Ingresa la API Key en el campo "Añadir API Key".
+
+Haz clic en Agregar Nodo.
+
+¡Listo! Ya puedes cargar tus archivos CSV.
+
+##🤝 Contribución
+Este es un proyecto académico desarrollado para fines de investigación en Procesamiento de Lenguaje Natural (NLP). Las sugerencias y Pull Requests son bienvenidos.
+
+##📄 Licencia
+Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
