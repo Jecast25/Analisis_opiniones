@@ -156,33 +156,11 @@ reporte.guardar('reporte_opiniones.html')
 ```
 Analisis_opiniones/
 │
-├── src/
-│   ├── __init__.py
-│   ├── analizador.py          # Clase principal del analizador
-│   ├── modelos.py             # Configuración de modelos Gemini
-│   ├── procesamiento.py       # Procesamiento de texto
-│   └── reportes.py            # Generación de reportes
+├── .streamlit/
+│   ├── config.toml
 │
-├── tests/
-│   ├── __init__.py
-│   ├── test_analizador.py
-│   └── test_procesamiento.py
-│
-├── examples/
-│   ├── ejemplo_basico.py
-│   ├── ejemplo_lote.py
-│   └── ejemplo_reporte.py
-│
-├── docs/
-│   ├── API.md
-│   ├── GUIA_USUARIO.md
-│   └── CONFIGURACION.md
-│
-├── .env.example               # Plantilla de variables de entorno
-├── .gitignore
-├── requirements.txt           # Dependencias del proyecto
-├── setup.py
-├── LICENSE
+├── proyecto.py
+|
 └── README.md
 ```
 
