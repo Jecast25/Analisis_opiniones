@@ -1,0 +1,14 @@
+[theme]
+base = "dark"
+primaryColor = "#00ADB5" # Cyan Tecnológico
+backgroundColor = "#1E1E1E" # Gris Oscuro IDE
+secondaryBackgroundColor = "#252526" # Gris VS Code
+textColor = "#E0E0E0"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+
+[layout]
+wideMode = true
