@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-Prototipo%20V5.0-success)
 
 > **Proyecto de Grado - Ingeniería de Ciencia de Datos e Inteligencia Artificial** > **Institución:** SENATI  
-> **Autores:** Jean Steven Acosta Cruz, Daniel Adrián López Cerpa  
+> **Autor:** Jean Steven Acosta Cruz
 > **Año:** 2025
 
 ## 📋 Descripción del Proyecto
