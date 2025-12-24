@@ -73,32 +73,58 @@ pip install -r requirements.txt
 ```bash
 streamlit run proyecto.py
 ```
+---
+## 📊 Estructura de Datos
 
-## Estructura de Datos
+### 📝 Producción (Análisis)
+Para ejecutar el análisis en la pestaña de Producción, tu archivo CSV debe incluir al menos una columna llamada `comentario`. Por ejemplo:
 
-### 1. Para la Pestaña de Producción (Análisis): Debe tener una columna llamada comentario.
+```
 id,comentario
 1,"El servicio fue excelente, me encantó."
 2,"La comida demoró mucho en llegar."
+```
 
-### 2. Para la Pestaña de Validación: Debe tener dos columnas: comentario y sentimiento_manual.
- comentario,sentimiento_manual
- "El producto llegó roto",Negativo
- "Es justo lo que pedí",Positivo
+### ✅ Validación
+Para utilizar la pestaña de Validación, se requiere un archivo CSV con las siguientes columnas: 
 
-# ⚙️ Configuración
-* Una vez iniciada la aplicación, verás una Barra Lateral (Sidebar):
+- **comentario**: Contiene el texto del comentario.
+- **sentimiento_manual**: Contiene la etiqueta de sentimiento asignada manualmente. 
 
-** Obtén tu API Key gratuita en Google AI Studio.
+Por ejemplo:
 
-** Ingresa la API Key en el campo "Añadir API Key".
+```
+comentario,sentimiento_manual
+"El producto llegó roto",Negativo
+"Es justo lo que pedí",Positivo
+```
 
-** Haz clic en Agregar Nodo.
+---
 
-** ¡Listo! Ya puedes cargar tus archivos CSV.
+## ⚙️ Configuración
 
-# 🤝 Contribución
-Este es un proyecto académico desarrollado para fines de investigación en Procesamiento de Lenguaje Natural (NLP). Las sugerencias y Pull Requests son bienvenidos.
+### 🔑 API Key
+1. Obtén tu **API Key** gratuita desde **Google AI Studio**.
+2. Ingresa la **API Key** en el campo "Añadir API Key" de la barra lateral.
 
-# 📄 Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
+Una vez configurado, sigue estos pasos:
+1. **Haz clic en Agregar Nodo.**
+2. **¡Listo!** Ahora podrás cargar tus archivos CSV y realizar análisis.
+
+---
+
+## 🤝 Contribución
+
+Este proyecto es desarrollado con fines académicos en el área de **Procesamiento de Lenguaje Natural (NLP)**. ¡Las sugerencias y Pull Requests son siempre bienvenidos!
+
+Si quieres contribuir, sigue estos pasos:
+1. Haz un **fork** del repositorio.
+2. Crea una nueva rama para tu funcionalidad o mejora (`git checkout -b feature/nueva-funcionalidad`).
+3. Asegúrate de probar los cambios antes de enviar un **Pull Request**.
+4. Envía tu PR con una descripción detallada.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo los términos de la **Licencia MIT**. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
